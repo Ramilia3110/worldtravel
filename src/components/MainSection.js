@@ -5,6 +5,9 @@ import nature from "../assets/nature.jpg";
 import styled from "styled-components";
 
 const Styles = styled.div`
+  .group-content {
+    height: 60vh;
+  }
   .group-content h1 {
     font-weight: 200;
     font-size: 2rem;
@@ -36,7 +39,7 @@ const MainSection = () => {
         <section className="main container-fluid px-0">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <div className="group-content text-center my-5 p-5">
+              <div className="group-content d-flex justify-content-center align-items-center text-center my-5 p-5">
                 <h1>
                   HAVE YOU EVER EXPERIENCED FEELINGS THAT YOU HAVE VISITED ALL
                   OVER THE WORLD IN MINUTES...
@@ -51,12 +54,12 @@ const MainSection = () => {
 
         <section className="main container-fluid px-0 mt-3">
           <div className="row align-items-center">
-            <div className="col-lg-6 order-2  order-md-1 mx-0 px-0">
-              <div className="group-content text-center my-5 p-5">
+            <div className="col-lg-6 order-1  order-lg-2 mx-0 px-0">
+              <div className="group-content d-flex align-items-center text-center my-5 p-5">
                 <h1>ARE YOU ALREADY EXCITED IN THE AIRPLANE</h1>
               </div>
             </div>
-            <div className="col-lg-6 order-1 order-md-2 mx-0 px-0">
+            <div className="col-lg-6 order-2 order-lg-1 mx-0 px-0">
               <img className="img-fluid image-resize" src={airplane} />
             </div>
           </div>
@@ -65,11 +68,12 @@ const MainSection = () => {
         <section className="main container-fluid px-0 mt-3">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <div className="group-content text-center my-5 p-5">
+              <div className="group-content d-flex flex-column justify-content-around text-center my-5 p-5">
                 <h1>OPEN YOURSELF FOR NEW HORIZONTS</h1>
                 <p>
-                  lorem gggjghj but the majority have suffered alteration in
-                  some form, by injected
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua.Ut enim ad minim veniam, quis nostrud exercitation
                 </p>
               </div>
             </div>
